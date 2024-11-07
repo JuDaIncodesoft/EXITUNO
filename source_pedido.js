@@ -827,7 +827,7 @@ function procesa_reqcompra() {
                     });
 
                     var yapuso = 0;
-                   //migrar_sap(global, 12)
+                   migrar_sap(global, 12)
                     actualiza_doc_evidencia(global);
                     $('#tabla_articulos > tbody > tr').each(function () {
                         var linea = $(this).find('td').eq(0).html();
